@@ -30,3 +30,18 @@ favorite_languages = {
 print("Sarah's favorite language is " +
       favorite_languages['sarah'].title() +
       ".")
+# So what if you wanted to see everything stored in the poll's dictionary?
+# USE A LOOP!
+
+# First, let's loop through all key-value pairs:
+for name, language in favorite_languages.items():
+    print(name.title() + "'s favorite language is " +
+          language.title() + ".")
+
+# Looping through just the values in a dictionary:
+print("The following languages have been mentioned: ")
+for language in favorite_languages.values():
+    print(language.title())
+
+# now, check out the pizza.py program
+    
