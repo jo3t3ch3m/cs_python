@@ -2,15 +2,16 @@
 
 
 # again, consider a imple parrot program...
-prompt = ("\nTell me something, and I will repeat it back to you:")
-prompt += "\nEnter 'quit' to end the program. "
+##prompt = ("\nTell me something, and I will repeat it back to you:")
+##prompt += "\nEnter 'quit' to end the program. "
+##
+##message = ""
+##while message != 'quit':
+##    message = raw_input(prompt)
 
-message = ""
-while message != 'quit':
-    message = raw_input(prompt)
+##    if message != 'quit':
+##        print(message)
 
-    if message != 'quit':
-        print(message)
 # This program performs its task while a given condition is true.
 # But, what about a more compplicated programs in which many different events
 # could cause the program to stop running?
@@ -34,3 +35,17 @@ while message != 'quit':
 # so... SO, our overall while statement needs to check only one condition:
 # whether or not the flag is currently True.
 # This way, all our other tests can be neatly organized in the rest of the program.
+
+# Alright, enough talking, let's add a flag to the parrot program!!!
+
+prompt = ("\nTell me something, and I will repeat it back to you:")
+prompt += "\nEnter 'quit' to end the program. "
+
+active = True # starting our flag
+while active:
+    message = raw_input(prompt)
+
+    if message != 'quit':
+        active = False # checking flag validity
+    else:
+        print(message)
