@@ -1,4 +1,5 @@
 # Python 2.7
+# example from Python Crash Course by Eric Matthes
 # Sure, you can nest a dictionary inside of another dictionary,
 # But, your program can potentially get complicated, really quickly
 
