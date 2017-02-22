@@ -27,4 +27,4 @@ favorite_languages = {
 for name, languages in favorite_languages.items():
   print("\n" + name.title() + "'s favorite languages are:")
   for language in languages:
-    print("\t" + languages.title())
+    print("\t" + language.title())      # simple fix to attr. error ("languages" changed to "language")
