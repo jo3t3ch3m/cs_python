@@ -8,10 +8,10 @@
 # A dictionary can be useful for storing the results of a simple poll:
 
 favorite_languages = {
-  'jen': 'python',
-  'sarah': 'c',
-  'edward': 'ruby',
-  'phil': 'python',
+  'jen': ['python'],
+  'sarah': ['c'],
+  'edward': ['ruby', 'go'],   # <--- trying to figure what error came up when students nested the list 2/22/2017
+  'phil': ['python'],
 }
 
 # As you can see, we've broken down a larger dicttionary into several lines.
