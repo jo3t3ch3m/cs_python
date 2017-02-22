@@ -16,3 +16,4 @@ for name, languages in favorite_languages.items():
         print("\t" + language.title()) # fixed attribute error ("languages" to language")
         
 # test for remote username change
+# second test, changing git config
