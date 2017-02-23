@@ -13,7 +13,7 @@ else:
     print("\nYou'll be able to ride this coaster wehn you're a little older")
     
 # MAIN IDEA: when you use numerical input to do calcualtions and comparisions,
-#               be sure to convert the value of the input to a numerical representation first
+# be sure to convert the value of the input to a numerical representation first
 
 
 
