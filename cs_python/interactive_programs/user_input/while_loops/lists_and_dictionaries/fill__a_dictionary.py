@@ -6,7 +6,7 @@
 
 # In this example, the user's will be asked for their name and a stream or river they visited
 
-# setting up empty dicitonary
+# setting up empty dictionary
 responses = {}
 
 # Set a flag to indicate that polling is active.
@@ -28,5 +28,5 @@ while polling_active:
 # Polling is complete. Now, Show the results.
 print("\n--- Stream Visitation Results ---")
 for name, response in responses.items():
-    print(name + " took measurements at " + response + ".")
+    print(name + " took measurements at the " + response + " site.")
     
