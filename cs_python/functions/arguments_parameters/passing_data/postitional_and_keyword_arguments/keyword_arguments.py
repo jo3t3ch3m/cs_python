@@ -28,7 +28,15 @@ def describe_bug(bug_type, bug_name):
 
 describe_bug(bug_type= 'dragonfly larvae', bug_name= 'anisoptera')
 
-# The function describe_bug() has not changed. 
+# The function describe_bug() has not changed.
+# When we call the function, we clearly state which parameter each argument
+# should be matched with. When Python reads the function call, it knows to store
+# the argument 'dragonfly larvae' in the parameter bug_type and the argument 'anisoptera'
+# in bug_name. The output correctly displays that we have a dragonfly larvae
+# of the order 'anisoptera'.
+
+# Unlike positional arguments,the order of keyword arguments is no matter,
+# because Python knows where each value should go.
 
 
 
