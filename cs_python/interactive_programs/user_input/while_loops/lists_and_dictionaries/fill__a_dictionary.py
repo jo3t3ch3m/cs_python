@@ -11,6 +11,7 @@ responses = {}
 
 # Set a flag to indicate that polling is active.
 polling_active = True
+# As long as the above flag is True, Python will run the while loop code
 
 while polling_active:
     # Prompt for the person's name and response.
@@ -30,3 +31,4 @@ print("\n--- Stream Visitation Results ---")
 for name, response in responses.items():
     print(name + " took measurements at the " + response + " site.")
     
+# Now, Let's move on to learning more about functions!!!
