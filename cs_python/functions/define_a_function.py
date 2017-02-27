@@ -1,4 +1,5 @@
 # Python 2.7
+# 2
 
 # Let's take a look at our greeter.py file on user input..
 # but, we define a function to perform the same task.
