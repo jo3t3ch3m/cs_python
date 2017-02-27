@@ -36,3 +36,25 @@ describe_bug('dragonfly larvae', 'anisoptera')
 # different bug requires just one more call to describe_bug():
 
 describe_bug('stonefly', 'plecoptera')
+# In this second function call, we pass describe_bug() the arguments
+# 'stonefly' and 'plecoptera'. Just like the previous arguments,
+# Python matches 'stonefly' with the parameter bug_type and 'plecoptera'
+# with the parameter bug_name.
+
+# Just like before, the function executes its task.
+
+# Calling a function more than once is very efficient. The code only needs to
+# be written once in the function. Anytime you want to describe a newly collected
+# bug, you just call the function with the new bug's information.
+
+# The order matters!!!
+# of course, order matters in positional arguments.
+# For example, if we reordered decribe_bug(bug_type, bug_name) to
+# decribe_bug(bug_name, bug_type), we might get a funny answer. Try it!
+
+
+
+
+
+
+
