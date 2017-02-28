@@ -1,7 +1,9 @@
 # Python 2.7
 
-# consider a imple parrot program:
-prompt = ("\nTell me something, and I will repeat it back to you:")
+# consider the greeter program:
+# Remember to write clear prompts!
+
+prompt = ("\nPlease enter your name:")
 prompt += "\nEnter 'quit' to end the program. "
 
 message = ""
