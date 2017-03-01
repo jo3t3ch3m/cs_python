@@ -12,3 +12,15 @@ print(name.title())
 # While we program more and more, we'll find that it is useful for us to combine strings
 # for example, let's say we wanted to combine to seperate variables,
 # like first name and last name.
+
+first_name = "ada"
+last_name = "lovelace"
+full_name = first_name + " " + last_name
+
+print(full_name)
+
+# or with a little more content and use of variables:
+message = "Hello " + full_name.title() + "!"
+print(message)
+
+
