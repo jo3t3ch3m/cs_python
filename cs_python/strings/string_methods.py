@@ -1,0 +1,14 @@
+# Python 2.7
+
+name = "ada lovelace"
+print(name.title())
+
+# Above we stored the value, "ada lovelace" in a variable named, 'name'
+# The dot (.) after name in name.title() tells Python to make the title() method
+# act on the variable, name.
+
+# CONCATENATING STRINGS/COMBINING STRINGS
+
+# While we program more and more, we'll find that it is useful for us to combine strings
+# for example, let's say we wanted to combine to seperate variables,
+# like first name and last name.
