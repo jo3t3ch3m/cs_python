@@ -41,7 +41,7 @@ import urllib2
 # of 187 animal names and packing that into a Python list.
 # Don't worry if this seems complicated -- we'll break this up and review every
 # step again in class.
-animals = json.load(urllib2.urlopen('https://www.randomlists.com/data/animals.json'))['RandL']
+animals = json.load(urllib2.urlopen('https://www.randomlists.com/data/animals.json'))['data']
 
 # Now, we reload a subject randomly picked from our new big list of animals
 sub = animals[random.randint(0,len(animals)-1)]
