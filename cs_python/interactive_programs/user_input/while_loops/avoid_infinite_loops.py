@@ -8,7 +8,7 @@
 x = 1
 while x <= 5:
     print(x)
-    x +=1
+    #x +=1
 # However, if the last line isn't present, the loop will run forever!
 # Comment the last line (x += 1) to see this in action.
 
