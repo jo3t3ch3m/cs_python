@@ -35,13 +35,13 @@ import json
 
 # The urllib2 library enables your program to connect to a website and, in this
 # case, get some random data.
-import urllib2
+import urllib
 
 # In one line of code we are connecting to a site, grabbing a random collection
 # of 187 animal names and packing that into a Python list.
 # Don't worry if this seems complicated -- we'll break this up and review every
 # step again in class.
-animals = json.load(urllib2.urlopen('https://www.randomlists.com/data/animals.json'))['data']
+animals = json.load(urllib.urlopen('https://www.randomlists.com/data/animals.json'))['data']
 
 # Now, we reload a subject randomly picked from our new big list of animals
 sub = animals[random.randint(0,len(animals)-1)]

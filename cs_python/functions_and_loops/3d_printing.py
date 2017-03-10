@@ -14,6 +14,7 @@ while unprinted_designs:
     # Simulate the print
     print("Printing model: " + current_design)
     completed_models.append(current_design)
+    
 
 # Display all completed models.
 print("\nThe following models have been printed:")
