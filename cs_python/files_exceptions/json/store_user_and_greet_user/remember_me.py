@@ -30,7 +30,7 @@ try:
     with open(filename) as f_obj:
         username = json.load(f_obj)
 
-except FileNotFoundError:
+except IOError:
     username = raw_input("What is your name? ")
     with open(filename, 'w') as f_obj:
         json.dump(username, f_obj)
@@ -39,5 +39,6 @@ else:
     print("\nWelcome back, " + username + "!")
 
 # The above code worked, except when you delete the JSON file,"FileNotFoundError is not defined"
+# Python 2.7 uses "IOError" rather than "FileNotFoundError"
 
         
