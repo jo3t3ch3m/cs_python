@@ -9,7 +9,7 @@
 # and the two behaviors (input and output) can go in the class Computer,
 # because they are common to most computers (modern ones).
 
-# This class will tell Python j=how to make an object representing a computer.
+# This class will tell Python how to make an object representing a computer.
 # After this class is written, we'll use it to make individual instances,
 # each of whcih represents one specific computer.
 
@@ -58,7 +58,7 @@ class Computer():
 
 my_computer = Computer('TRS-80', 16)
 
-print("My computer's name is " + my_computer.name.title() + ".")
+print("My computer's name is " + my_computer.name.upper() + ".")
 print("My computer has " + str(my_computer.memory) + " kilobytes of volatile memory.")
 my_computer.take_input()
 my_computer.display_output()
