@@ -40,3 +40,18 @@
 # to effectively approach almost any problem.
 
 # move on to class_intro.py
+
+####
+
+# CREATING AND USING A CLASS
+
+# You can model almost anything using classes. Let's start by writing a simple
+# class, Dog, that represents a dog --not one dog in particular, but any dog.
+# What do we know about most pet dogs?
+# They have a name and age.
+# and many dogs can sit and roll over.
+# The two pieces of information (name and age)
+# and the two behaviors (sit and roll over) can go in the class Dog,
+# because they are common to most dogs.
+
+
