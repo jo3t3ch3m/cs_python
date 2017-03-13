@@ -1,8 +1,12 @@
+# Python 2.7
+
+# CREATING AND USING A CLASS
+
 class Dog():
     """a simple attempt to model a dog"""
 
     def __init__(self, name, age):
-        """Initializa name and age attributes."""
+        """Initialize name and age attributes."""
         self.name = name
         self.age = age
 
