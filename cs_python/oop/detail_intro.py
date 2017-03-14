@@ -2,7 +2,7 @@
 
 # OBJECT-ORIENTED PROGRAMMING
 
-# One of the most effective approaches to wriitng software.
+# One of the most effective approaches to writing software.
 
 # Object oriented programming is amazing at modeling real-world situations
 
@@ -11,10 +11,10 @@
 # In other words...
 # Objects are defined by Classes
 
-# When you you writea class, you define the general behavior that
+# When you you write a class, you define the general behavior that
 # a whole category of objects can have.
 
-# So, when you create individual objects from the class, each bject is
+# So, when you create individual objects from the class, each object is
 # automatically equipped with he general behavior; you can then give each
 # object whatever unique traits you desire.
 
