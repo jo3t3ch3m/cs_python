@@ -1,6 +1,6 @@
 Title: Starting Django     
 Author: Joe      
-Date: 2017-03-12      
+Date: 2017-03-13      
 category: Python Web Application  
 
 ### Django  
