@@ -15,7 +15,7 @@
 # a whole category of objects can have.
 
 # So, when you create individual objects from the class, each object is
-# automatically equipped with he general behavior; you can then give each
+# automatically equipped with the general behavior; you can then give each
 # object whatever unique traits you desire.
 
 # When we make an object from a class, it is called INSTANTIATION,
@@ -24,7 +24,7 @@
 # Objectives:
 # We'll learn how to write classes and create instances of those classes.
 # We'll specify the kind of information that can be stored in instances,
-# and we'll define actions that can be taken with these isntances.
+# and we'll define actions that can be taken with these instances.
 
 # We'll write classes that extend the functionality of existing classes,
 # so similar classes can share code efficiently.
