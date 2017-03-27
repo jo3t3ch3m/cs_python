@@ -7,9 +7,10 @@ category: Python Web Application
 
 We can use tools in Python to help us build awesome web applications.. *enter Django.* This is a **web framework** written in Python. A web framework is essentially a set of tools designed for building interactive websites. There are slews of these tools written in other languages as well. They all do just about the same thing. Having these options provides a good set of flavors to choose from. After you feel comfortable with building a web application using Django; don't stop there! Explore others and pick out the one that works best for you.  
 
-#### Note  
+#### Important Notes    
 
-For this article, any set of text that looks like `this` will be what is typed in the terminal.  
+- For this article, any set of text that looks like `this` will be what is typed in the terminal.  
+- Down the road, anytime we edit a file, make sure to open with sudo ($~ sudo filname)  
 
 ***  
 
