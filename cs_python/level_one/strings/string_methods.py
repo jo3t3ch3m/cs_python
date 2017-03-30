@@ -25,12 +25,9 @@ print(message)
 
 # Quiz start
 score = 0
-
-
 while True:
     # First Question
     print("\nWho was " + full_name.title() + "?")
-    
     choice1 = raw_input("\nA) first woman to go to mars, or" +
                         "\nB) first computer programmer, or" +
                         "\nC) first president of U.S." +
@@ -47,7 +44,6 @@ while True:
 
     # Second Question
     print("\nWhat MACHINE did " + full_name.title() + " program?")
-    
     choice2 = raw_input("\nA) The washer machine, or" +
                         "\nB) A car, or" +
                         "\nC) The Babbage Machine" +
@@ -60,8 +56,7 @@ while True:
         break
     else:
         print("\tClose!" +
-              "\n\tPlease try again...")        
-        
+              "\n\tPlease try again...")                
 print "\nHere is your score: "
 print score
 
