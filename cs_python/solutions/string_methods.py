@@ -23,13 +23,11 @@ print(full_name)
 message = "Hello " + full_name.title() + "!"
 print(message)
 
+# Quiz start
 score = 0
-
-active = True
-while active:
+while True:
     # First Question
     print("\nWho was " + full_name.title() + "?")
-    
     choice1 = raw_input("\nA) first woman to go to mars, or" +
                         "\nB) first computer programmer, or" +
                         "\nC) first president of U.S." +
@@ -39,35 +37,26 @@ while active:
               "\n\tOne point is added to your score!")
         score += 1
     elif choice1 == 'quit':
-        print("\nHere is your score:")
-        print score
-        active = False
+        break
     else:
         print("\tClose!" +
-              "\n\tPlease try again..." +
-              "\n\tOne point is deducted :(")
-        score -= 1
+              "\n\tPlease try again...")
 
     # Second Question
     print("\nWhat MACHINE did " + full_name.title() + " program?")
-    
     choice2 = raw_input("\nA) The washer machine, or" +
                         "\nB) A car, or" +
-                        "\nC) The Babbage Machine")
+                        "\nC) The Babbage Machine" +
+                        "\n")
     if choice2 == 'B':
         print("\tCorrect!" +
               "\n\tOne point is added to your score!")
         score += 1
     elif choice2 == 'quit':
-        print("\nHere is your score:")
-        print score
-        active = False
+        break
     else:
         print("\tClose!" +
-              "\n\tPlease try again..."+
-              "\n\tOne point is deducted :(")
-        score -= 1        
-        
-
-
+              "\n\tPlease try again...")                
+print "\nHere is your score: "
+print score
 
