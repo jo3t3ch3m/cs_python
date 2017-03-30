@@ -9,3 +9,6 @@ print(full_name)
 
 message = "Hello " + full_name.title() + "!"
 print(message)
+
+message = "Hello " + full_name.title() + "!"
+print(message)
