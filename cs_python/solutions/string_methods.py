@@ -1,5 +1,10 @@
 # Python 2.7
 
+# Objectives:
+    # some string methods
+    # "make your own quiz":
+        # while loop, adding to a score
+
 name = "ada lovelace"
 print(name.title())
 
