@@ -27,7 +27,7 @@ print(full_name)
 # or with a little more content and use of variables:
 message = "Hello " + full_name.title() + "!"
 print(message)
-
+############
 # Quiz start
 score = 0
 while True:
@@ -53,15 +53,17 @@ while True:
                         "\nB) A car, or" +
                         "\nC) The Babbage Machine" +
                         "\n")
-    if choice2 == 'B':
+    if choice2 == 'C':
         print("\tCorrect!" +
               "\n\tOne point is added to your score!")
         score += 1
+        break
     elif choice2 == 'quit':
         break
     else:
         print("\tClose!" +
               "\n\tPlease try again...")                
+# After break the loop
 print "\nHere is your score: "
 print score
 
