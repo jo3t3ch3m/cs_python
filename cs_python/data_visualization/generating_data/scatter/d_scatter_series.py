@@ -1,6 +1,11 @@
 """
 Removing Outlines from Data Points
 
+matplotlib allows you to color points individually in a scatter plot.
+When plotting points, the two default colors can seem to blend. To remove
+outlines around the points, pass the argument edgecolor = 'none' when
+you call scatter()
+
 """
 
 import matplotlib.pyplot as plt
@@ -8,7 +13,8 @@ import matplotlib.pyplot as plt
 x_values = list(range(1, 1001))
 y_values = [x**2 for x in x_values]
 
-plt.scatter(x_values, y_values, s = 40)
+# change the color of the points:
+plt.scatter(x_values, y_values, c= 'red', edgecolor = 'none', s = 40)
 
 
 plt.title("Square Numbers", fontsize = 24)      # setting up title
