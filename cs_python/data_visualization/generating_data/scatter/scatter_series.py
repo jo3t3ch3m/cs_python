@@ -15,9 +15,15 @@ values of the point of interest to scatter(), and it should plot those values
 
 """
 
+# To plot a series of points, we can pass scatter() separate lists of x-
+# and y-values:
+
 import matplotlib.pyplot as plt
 
-plt.scatter(2, 4, s = 200)
+x_values = [1, 2, 3, 4, 5]
+y_values = [1, 4, 9, 16, 25]
+
+plt.scatter(x_values, y_values, s = 100)
 
 # Set chart title and label axes.
 plt.title("Square Numbers", fontsize = 24)      # setting up title
