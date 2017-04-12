@@ -7,10 +7,11 @@ Now changing the type of label and thickness of the graph.
 
 import matplotlib.pyplot as plt
 
+input_values = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
 
 # Set thickness of line
-plt.plot(squares, linewidth = 5)
+plt.plot(input_values, squares, linewidth = 5)
 
 # Set chart title and labeling the axes
 plt.title("Square Numbers", fontsize = 28)
