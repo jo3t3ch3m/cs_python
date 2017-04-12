@@ -1,6 +1,9 @@
 """
-A simple program that issues an API call and process the results by
-identifying the most starred Python projects on GitHub.
+Most APIs are rate-limited. This means there is a limit to how many
+requests you can make in a certain amount of time.
+
+For GitHub, you can check to see if you're coming to it's limits by
+visiting https://api.github.com/rate_limit
 
 """
 
