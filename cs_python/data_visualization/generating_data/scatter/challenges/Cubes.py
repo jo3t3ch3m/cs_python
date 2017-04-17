@@ -5,28 +5,21 @@ A number raised to the third power is a cube. Plot the first five
 cubic numbers, and then plot the first 5000 cubic numbers.
 
 """
+# Plotting 5 cubes
+from matplotlib import pyplot as plt
 
-import matplotlib.pyplot as plt
+# Define data.
+x_values = [1, 2, 3, 4, 5]
+cubes = [1, 8, 27, 64, 125]
 
-x_values = list(range(1, 1001))
-y_values = [x**2 for x in x_values]
+# Make plot.
+plt.scatter(x_values, cubes, edgecolor='none', s=40)
 
-# change the color of the points
-# with an RGB model:
-plt.scatter(x_values, y_values, c = y_values, cmap=plt.cm.Blues,
-            edgecolor = 'none', s = 40)
+# Customize plot.
+plt.title("Cubes", fontsize=24)
+plt.xlabel('Value', fontsize=14)
+plt.ylabel('Cube of Value', fontsize=14)
+plt.tick_params(axis='both', labelsize=14)
 
-
-plt.title("Square Numbers", fontsize = 24)      # setting up title
-plt.xlabel("Value", fontsize = 14)              # setting up x axis label
-plt.ylabel("Square of Value", fontsize = 14)    # setting up y axis label
-
-
-plt.tick_params(axis = 'both', which = 'major', labelsize = 14)
-
-# Set up the range for each axis:
-plt.axis([0, 1100, 0, 1100000])
-
-# Automatic Save
-plt.savefig('squares_plot.png', bbox_inches='tight')
-
+# Show plot.
+plt.show()
