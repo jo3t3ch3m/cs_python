@@ -19,6 +19,6 @@ filename = 'numbers.json'
 with open(filename, 'w') as f_obj:
     json.dump(numbers, f_obj)
 
-# So, the program run, only it does not have any output
+# So, the program ran, only it does not have any output
 # After we run it, we'll see the numbers.json file in the same directory as this file.
 
