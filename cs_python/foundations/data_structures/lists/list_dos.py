@@ -60,7 +60,13 @@ print(mc)
 # FINDING THE LENGTH OF A LIST
 print("\nHere is the length of our list so far: ")
 len(mc)
+print(len(mc))
 
-
-
+# LOOPING THROUGH A LIST
+print("\nHere, we are looping though all items in the list: ")
+for items in mc:
+	#print(items.title())
+	print("\t" + items.title() + ", is an item found in the game, Minecraft" + "!")
+	
+	print("\t" + "This item does something, " + items.title() + ".\n")
 
