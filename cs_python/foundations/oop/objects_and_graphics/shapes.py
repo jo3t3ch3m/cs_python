@@ -4,8 +4,8 @@ win = GraphWin('Shapes')
 
 ### Draw a red circle centered at point (100, 100)
 ### with radius 30
-center = Point(100, 100)
-circ = Circle(center, 30)
+center = Point(300, 300)
+circ = Circle(center, 90)
 circ.setFill('red')
 circ.draw(win)
 
@@ -14,13 +14,14 @@ label = Text(center, "Red Circle")
 label.draw(win)
 
 ### Draw a square using Rectangle object
-rect = Rectangle(Point(30, 30), Point(70, 70))
+rect = Rectangle(Point(90, 90), Point(210, 210))
 rect.draw(win)
 
 ### Draw a line segment using a Line object
-line = Line(Point(20, 30), Point(180, 165))
+line = Line(Point(60, 90), Point(540, 495))
 line.draw(win)
 
 ### Draw an oval using the Oval object
-oval = Oval(Point(20, 150), Point(180, 199))
+oval = Oval(Point(60, 450), Point(540, 597))
 oval.draw(win)
+win.getMouse()
