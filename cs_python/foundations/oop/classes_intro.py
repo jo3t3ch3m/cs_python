@@ -24,7 +24,7 @@ class Dog():
 my_dog = Dog('koa', 2)
 
 print("My dog's name is " + my_dog.name.title() + ".")
-print("My dog is " +str(my_dog.age) + " years old.")
+print("My dog is " + str(my_dog.age) + " years old.")
 
 # CALLING METHODS
 my_dog.sit()
