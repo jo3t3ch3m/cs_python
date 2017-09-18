@@ -4,7 +4,8 @@
 
 # Consider a list of newly registered but unverified users of a website. After we
 # verify these users, we need to move them to seperate list of confirmed users.
-# Well, from what we just learned, we can use a while loop to pull users
+
+# From what we just learned, we can use a while loop to pull users
 # from the list of unconfirmed users as we verify them and then add them to a
 # seperate list of confirmed users.
 
